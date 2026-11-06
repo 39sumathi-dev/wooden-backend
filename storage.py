@@ -112,7 +112,7 @@ class R2StorageClient:
                     CacheControl="public, max-age=31536000, immutable"
                 )
 
-                public_url = f"http://localhost:8000/api/images/{filename}"
+                public_url = f"https://wooden-backend-production.up.railway.app/api/images/{filename}"
                 logger.info(f"File uploaded directly to Cloudflare R2: {filename}")
                 return public_url, "cloudflare_r2", stats
             except Exception as e:
