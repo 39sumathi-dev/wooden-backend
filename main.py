@@ -131,28 +131,28 @@ CATEGORY_TAXONOMY = [
         "name": "Functional Homeware",
         "slug": "functional-homeware",
         "description": "Utilitarian vessels, bowls, and tableware designed to bring tactile woodcraft to daily living.",
-        "image": "assets/products/bowl-oak.png",
+        "image": "http://localhost:8000/api/images/woven-brick-bowl.jpg",
         "subCategories": [
             {
                 "id": "bowls-trays",
                 "name": "Bowls & Trays",
                 "slug": "bowls-trays",
                 "description": "Centerpiece salad bowls, platters, and shallow trays carved from seasoned billets.",
-                "image": "assets/products/bowl-oak.png"
+                "image": "http://localhost:8000/api/images/woven-brick-bowl.jpg"
             },
             {
                 "id": "goblets-drinkware",
                 "name": "Goblets & Drinkware",
                 "slug": "goblets-drinkware",
                 "description": "Turned wooden chalices, wine goblets, and tumblers finished with food-safe natural seals.",
-                "image": "assets/products/goblets-teak.jpg"
+                "image": "http://localhost:8000/api/images/woodland-trio-goblet.jpg"
             },
             {
                 "id": "kitchen-accessories",
                 "name": "Kitchen Accessories (Bottle Stoppers, ...)",
                 "slug": "kitchen-accessories",
                 "description": "Precision wine bottle stoppers, salt & pepper mills, and kitchen tools turned from exotic woods.",
-                "image": "assets/products/bottle-stoppers.jpg"
+                "image": "http://localhost:8000/api/images/bottle-stoppers.jpg"
             }
         ]
     },
@@ -161,28 +161,28 @@ CATEGORY_TAXONOMY = [
         "name": "Fine Writing Instruments & Gifts",
         "slug": "fine-writing-gifts",
         "description": "Meticulously turned luxury fountain pens, pen display boxes, and heirloom ring cases.",
-        "image": "assets/products/pen-set.png",
+        "image": "http://localhost:8000/api/images/pen-set.png",
         "subCategories": [
             {
                 "id": "executive-pens",
                 "name": "Executive Pens & Sets",
                 "slug": "executive-pens",
                 "description": "Hand-turned pens made from precious hardwoods with solid German nibs and brass fittings.",
-                "image": "assets/products/pen-set.png"
+                "image": "http://localhost:8000/api/images/pen-set.png"
             },
             {
                 "id": "pen-boxes-cases",
                 "name": "Wooden Pen Boxes & Cases",
                 "slug": "pen-boxes-cases",
                 "description": "Solid walnut and hardwood desk display cases lined with premium velvet.",
-                "image": "assets/products/pen-box-walnut.jpg"
+                "image": "http://localhost:8000/api/images/pen-box-walnut.jpg"
             },
             {
                 "id": "custom-ring-boxes",
                 "name": "Custom Ring Boxes",
                 "slug": "custom-ring-boxes",
                 "description": "Heirloom magnetic swivel ring boxes crafted from rich burl wood and rare timbers.",
-                "image": "assets/products/ring-box-burl.jpg"
+                "image": "http://localhost:8000/api/images/ring-box-burl.jpg"
             }
         ]
     },
@@ -191,28 +191,28 @@ CATEGORY_TAXONOMY = [
         "name": "Art & Accent Pieces",
         "slug": "art-accent-pieces",
         "description": "Museum-grade hollow forms, gallery finials, desk curios, and specialty hybrid resin artworks.",
-        "image": "assets/products/finial-hollow-form.jpg",
+        "image": "http://localhost:8000/api/images/vase-walnut.png",
         "subCategories": [
             {
                 "id": "finials-hollow-forms",
                 "name": "Finials & Hollow Forms",
                 "slug": "finials-hollow-forms",
                 "description": "Delicate thin-walled hollow forms and needle finials turned from contrasting timbers.",
-                "image": "assets/products/finial-hollow-form.jpg"
+                "image": "http://localhost:8000/api/images/vase-walnut.png"
             },
             {
                 "id": "spinning-tops-curios",
                 "name": "Spinning Tops & Desk Curios",
                 "slug": "spinning-tops-curios",
                 "description": "Balanced precision wooden spinning tops and sculptural tactile desk artifacts.",
-                "image": "assets/products/spinning-tops.jpg"
+                "image": "http://localhost:8000/api/images/spinning-tops.jpg"
             },
             {
                 "id": "specialty-hybrid-pieces",
                 "name": "Specialty / Hybrid Pieces (Resin & Pearl)",
                 "slug": "specialty-hybrid-pieces",
                 "description": "Striking combination of natural burl timber fused with swirling pearl and emerald epoxy resin.",
-                "image": "assets/products/hybrid-resin-bowl.jpg"
+                "image": "http://localhost:8000/api/images/emerald-glow-bowl.jpg"
             }
         ]
     }
@@ -229,7 +229,7 @@ SEED_PRODUCTS = [
         "category": "Functional Homeware",
         "timber": "Magnolia",
         "description": "Celebrate the natural beauty of magnolia wood with this one-of-a-kind handcrafted bowl. Golden Ember features beautiful honey-gold and amber tones, flowing wood grain, and dramatic dark markings that create a striking contrast across its sculptural form. The generously curved interior, gently flared rim, and organic contours showcase the character of the wood, making this piece a distinctive addition to any home. Perfect as a coffee-table centerpiece, a decorative accent, or a thoughtful gift for a woodcraft enthusiast, this artisan bowl brings warmth, texture, and natural elegance to any setting.\n\nDetails:\n• Wood: Magnolia\n• Color: Honey gold, amber, and rich brown\n• Style: Rustic artisan with natural organic character\n• Design: Rounded body with a wide, gently flared rim\n• Uniqueness: Natural grain and markings make each piece individual\n• Care: Avoid soaking or dishwashing. Confirm the finish is food-safe before using with food.\n\nA distinctive celebration of magnolia wood and its natural beauty.",
-        "images": ["assets/products/golden-ember-bowl.jpg"],
+        "images": ["http://localhost:8000/api/images/golden-ember-bowl.jpg"],
         "price": 95,
         "variants": [
             {"label": "Standard Artisan Edition", "price": 95, "dimensions": "28cm × 11cm"}
@@ -248,7 +248,7 @@ SEED_PRODUCTS = [
         "category": "Functional Homeware",
         "timber": "Solid Cherry with Iridescent Embellishment",
         "description": "Beautifully turned from solid cherry wood, this one-of-a-kind artisan bowl showcases the warm honey and amber tones of natural cherry, complemented by distinctive grain patterns and character markings. A striking band of shimmering emerald green, turquoise, and hints of violet embellishment wraps around the exterior, framed by elegant black accent lines.\n\nThe smooth, rounded form, gently flared rim, and carefully finished interior highlight the natural beauty of the wood. The combination of traditional woodturning and vibrant, iridescent detailing creates a captivating piece that blends rustic warmth with contemporary artistic flair. Perfect as a decorative centerpiece, a conversation piece, or a thoughtful gift for someone who appreciates handmade craftsmanship and natural materials.\n\nDetails:\n• Material: Solid cherry wood\n• Design: Hand-turned with iridescent green and turquoise embellishment\n• Accents: Contrasting black decorative bands\n• Finish: Smooth, natural-looking wood finish\n• Style: Contemporary artisan, nature-inspired\n• Uniqueness: One of a kind, with distinctive natural grain and markings\n• Care: Dust with a soft, dry cloth. Avoid soaking, dishwashers, and prolonged exposure to moisture or direct sunlight. Unless the finish and embellishment are confirmed food-safe, use for decorative purposes only.",
-        "images": ["assets/products/emerald-glow-bowl.jpg"],
+        "images": ["http://localhost:8000/api/images/emerald-glow-bowl.jpg", "http://localhost:8000/api/images/emerald-glow-bowl-interior.jpg"],
         "price": 125,
         "variants": [
             {"label": "Signature Iridescent Edition", "price": 125, "dimensions": "26cm × 13cm"}
@@ -267,7 +267,7 @@ SEED_PRODUCTS = [
         "category": "Functional Homeware",
         "timber": "Solid Cherry Wood",
         "description": "Showcasing the natural warmth and rich reddish-brown tones of cherry wood, this hand-turned bowl features beautiful flowing grain, distinctive natural figuring, and a smooth, gently curved profile. Its shallow, elegant shape makes it a lovely centerpiece, decorative accent, or serving bowl. Each piece highlights the unique character of the wood, making it one of a kind.\n\nDetails:\n• Material: Solid cherry wood\n• Finish: Smooth, natural wood finish\n• Care: Hand-wipe with a soft, slightly damp cloth; avoid soaking or the dishwasher. Use for food only if the finish is food-safe.",
-        "images": ["assets/products/cherry-glow-bowl.jpg"],
+        "images": ["http://localhost:8000/api/images/cherry-glow-bowl.jpg"],
         "price": 65,
         "variants": [
             {"label": "Shallow Profile Edition", "price": 65, "dimensions": "24cm × 6cm"}
@@ -286,7 +286,7 @@ SEED_PRODUCTS = [
         "category": "Functional Homeware",
         "timber": "Natural Wood with Live Bark Edge",
         "description": "Celebrate the beauty of natural wood with this one-of-a-kind live edge bowl. Its organic, irregular rim preserves the character of the original tree, including rugged bark details and contrasting golden wood grain. The rounded form and sculptural silhouette create a striking balance between rustic charm and refined craftsmanship. A distinctive accent for a coffee table, shelf, or nature-inspired interior.\n\nDetails:\n• Material: Natural wood with preserved live edge and bark features\n• Finish: Smoothly finished interior and exterior with natural edge details\n• Care: Keep dry and clean with a soft cloth. Avoid soaking and direct heat.",
-        "images": ["assets/products/natures-edge-bowl.jpg"],
+        "images": ["http://localhost:8000/api/images/natures-edge-bowl.jpg"],
         "price": 95,
         "variants": [
             {"label": "Sculptural Live Edge Edition", "price": 95, "dimensions": "30cm × 14cm"}
@@ -298,22 +298,177 @@ SEED_PRODUCTS = [
     },
     {
         "id": "woodland-trio-segmented-goblet",
-        "name": "Woodland Trio — Segmented Artisan Goblet",
+        "name": "Woodland Trio — Hand-Turned Artisan Chalice with Captive Ring",
         "mainCategory": "Functional Homeware",
         "subCategory": "Goblets & Drinkware",
         "parentCategory": "Functional Homeware",
         "category": "Functional Homeware",
-        "timber": "Cherry, Pine & Ash",
-        "description": "A distinctive woodturned goblet handcrafted from three contrasting woods: cherry, pine, and ash. Rich reddish-brown cherry, warm golden pine, and light ash combine to create a beautiful interplay of colors and natural grain patterns. The elongated cup, graceful stem, and sculpted base give this piece an elegant silhouette, making it an eye-catching display piece, a memorable handmade gift, or a unique addition to a woodturning collection.\n\nDetails:\n• Materials: Cherry, pine, and ash\n• Construction: Segmented woodturning\n• Finish: Smooth, polished wood finish\n• Care: Wipe clean with a soft cloth. Not intended for dishwasher use and beverage use.",
-        "images": ["assets/products/woodland-trio-goblet.jpg"],
+        "timber": "Turned Hardwood with Captive Ring",
+        "description": "A distinctive woodturned goblet handcrafted with exquisite skill. Features a masterfully turned captive ring permanently linked around its pedestal stem, carved from the same solid wood billet without any breaks or joins. Smooth polished finish showcasing natural grain ribbons.",
+        "images": ["http://localhost:8000/api/images/woodland-trio-goblet.jpg", "http://localhost:8000/api/images/goblets-teak.jpg"],
         "price": 85,
         "variants": [
-            {"label": "Segmented Artisan Chalice", "price": 85, "dimensions": "21cm × 8cm"}
+            {"label": "Captive Ring Chalice", "price": 85, "dimensions": "20cm × 8cm"},
+            {"label": "Classic Turned Chalice", "price": 75, "dimensions": "18cm × 7.5cm"}
         ],
         "isFeatured": True,
         "isNew": True,
         "badge": "Suggested $85",
         "displayOrder": 5
+    },
+    {
+        "id": "woven-brick-segmented-bowl",
+        "name": "Woven Brick — Segmented Hardwood Artisan Bowl",
+        "mainCategory": "Functional Homeware",
+        "subCategory": "Bowls & Trays",
+        "parentCategory": "Functional Homeware",
+        "category": "Functional Homeware",
+        "timber": "Segmented Oak & Walnut",
+        "description": "An exceptional master-turned bowl featuring an intricate 'woven brickwork' pattern, assembled from contrasting white oak and rich walnut blocks on a solid turned hardwood footing. Smooth, tactile contours and a silky satin finish showcase the complex joinery.",
+        "images": ["http://localhost:8000/api/images/woven-brick-bowl.jpg"],
+        "price": 145,
+        "variants": [
+            {"label": "Segmented Collector Bowl", "price": 145, "dimensions": "26cm × 16cm"}
+        ],
+        "isFeatured": True,
+        "isNew": True,
+        "badge": "Workshop Exclusive",
+        "displayOrder": 6
+    },
+    {
+        "id": "natural-grain-turned-vase",
+        "name": "Heirloom Turned Wooden Bud Vase",
+        "mainCategory": "Art & Accent Pieces",
+        "subCategory": "Finials & Hollow Forms",
+        "parentCategory": "Art & Accent Pieces",
+        "category": "Art & Accent Pieces",
+        "timber": "Figured Blonde Hardwood with Natural Knot",
+        "description": "Gracefully contoured wooden bud vase turned from a single block of figured blonde hardwood. Features a dramatic natural knot eye, delicate flared neck, and weighted base. Perfect for dry botanical stems or as a standalone sculptural accent.",
+        "images": ["http://localhost:8000/api/images/vase-walnut.png"],
+        "price": 55,
+        "variants": [
+            {"label": "Figured Wood Vase", "price": 55, "dimensions": "18cm × 9cm"}
+        ],
+        "isFeatured": True,
+        "isNew": True,
+        "badge": "Handmade",
+        "displayOrder": 7
+    },
+    {
+        "id": "handcrafted-wine-stoppers-set",
+        "name": "Artisan Turned Wine Stopper & Barware Set",
+        "mainCategory": "Functional Homeware",
+        "subCategory": "Kitchen Accessories (Bottle Stoppers, ...)",
+        "parentCategory": "Functional Homeware",
+        "category": "Functional Homeware",
+        "timber": "Turned Hardwood & Stainless Steel",
+        "description": "Turned wooden wine bottle stoppers with precision stainless steel cone and food-grade silicone airtight seal rings, accompanied by solid brass & chrome bottle openers turned from complementary hardwoods.",
+        "images": ["http://localhost:8000/api/images/bottle-stoppers.jpg"],
+        "price": 38,
+        "variants": [
+            {"label": "Artisan Stopper", "price": 38, "dimensions": "10cm × 4cm"},
+            {"label": "Stopper & Opener Set", "price": 68, "dimensions": "Gift Set"}
+        ],
+        "isFeatured": True,
+        "isNew": False,
+        "badge": "Barware",
+        "displayOrder": 8
+    },
+    {
+        "id": "patriotic-bolt-action-pen-set",
+        "name": "Patriotic Bolt-Action Turned Pen Gift Set",
+        "mainCategory": "Fine Writing Instruments & Gifts",
+        "subCategory": "Executive Pens & Sets",
+        "parentCategory": "Fine Writing Instruments & Gifts",
+        "category": "Fine Writing Instruments & Gifts",
+        "timber": "Select Ash with Americana Inlay",
+        "description": "Handcrafted bolt-action bullet cartridge pen set turned from select hardwood with patriotic stars-and-stripes detailing, authentic bolt mechanism, and premium smooth refill. Presented in custom SK Wood Turnery packaging.",
+        "images": ["http://localhost:8000/api/images/pen-set.png", "http://localhost:8000/api/images/gift-pens-collection.jpg"],
+        "price": 75,
+        "variants": [
+            {"label": "Executive Presentation Set", "price": 75, "dimensions": "Pair in Gift Box"}
+        ],
+        "isFeatured": True,
+        "isNew": True,
+        "badge": "Best Seller",
+        "displayOrder": 9
+    },
+    {
+        "id": "executive-fountain-pen-velvet-case",
+        "name": "Executive Fine Pen in Velvet-Lined Hardwood Case",
+        "mainCategory": "Fine Writing Instruments & Gifts",
+        "subCategory": "Wooden Pen Boxes & Cases",
+        "parentCategory": "Fine Writing Instruments & Gifts",
+        "category": "Fine Writing Instruments & Gifts",
+        "timber": "African Blackwood & Cherry Casing",
+        "description": "Meticulously balanced luxury writing pen turned from dense African blackwood with engraved silver appointments, resting in a solid cherry presentation box lined with ivory velvet.",
+        "images": ["http://localhost:8000/api/images/pen-box-walnut.jpg"],
+        "price": 110,
+        "variants": [
+            {"label": "Cased Luxury Pen", "price": 110, "dimensions": "15cm Pen in Box"}
+        ],
+        "isFeatured": True,
+        "isNew": True,
+        "badge": "Luxury Gift",
+        "displayOrder": 10
+    },
+    {
+        "id": "threaded-brass-hardwood-ring-box",
+        "name": "Heirloom Threaded Brass & Hardwood Ring Box",
+        "mainCategory": "Fine Writing Instruments & Gifts",
+        "subCategory": "Custom Ring Boxes",
+        "parentCategory": "Fine Writing Instruments & Gifts",
+        "category": "Fine Writing Instruments & Gifts",
+        "timber": "Solid Walnut with Knurled Brass Threads",
+        "description": "An exceptional heirloom keepsake box turned from dense solid walnut with precision-machined knurled brass screw threading. Keeps wedding bands, rings, or small treasures safe with a satisfying weighted seal.",
+        "images": ["http://localhost:8000/api/images/ring-box-burl.jpg"],
+        "price": 48,
+        "variants": [
+            {"label": "Knurled Brass Threaded Box", "price": 48, "dimensions": "6cm × 5.5cm"}
+        ],
+        "isFeatured": True,
+        "isNew": True,
+        "badge": "Heirloom",
+        "displayOrder": 11
+    },
+    {
+        "id": "precision-wooden-spinning-tops",
+        "name": "Precision Hand-Turned Brass Gyroscope Spinning Tops",
+        "mainCategory": "Art & Accent Pieces",
+        "subCategory": "Spinning Tops & Desk Curios",
+        "parentCategory": "Art & Accent Pieces",
+        "category": "Art & Accent Pieces",
+        "timber": "Lignum Vitae, Rosewood & Polished Brass",
+        "description": "Dynamically balanced precision desk spinning tops featuring polished brass gyro rings and hardened contact points. Expertly turned from exotic dense hardwoods for exceptional spin times and mesmerizing desk display.",
+        "images": ["http://localhost:8000/api/images/spinning-tops.jpg"],
+        "price": 34,
+        "variants": [
+            {"label": "Single Balanced Top", "price": 34, "dimensions": "5cm × 7cm"},
+            {"label": "Collector Set", "price": 85, "dimensions": "Assorted Timbers"}
+        ],
+        "isFeatured": True,
+        "isNew": False,
+        "badge": "Desk Curio",
+        "displayOrder": 12
+    },
+    {
+        "id": "artisan-turned-lidded-vessel",
+        "name": "Artisan Turned Lidded Vessel & Honey Pot",
+        "mainCategory": "Functional Homeware",
+        "subCategory": "Kitchen Accessories (Bottle Stoppers, ...)",
+        "parentCategory": "Functional Homeware",
+        "category": "Functional Homeware",
+        "timber": "Warm Figured Teak",
+        "description": "Hand-turned hollow vessel featuring a precision-fitted turned lid with a sculptured finial knob. Finished in warm food-safe oil, ideal for holding sugar, honey, spices, or desk treasures.",
+        "images": ["http://localhost:8000/api/images/lidded-vessel-pot.jpg"],
+        "price": 58,
+        "variants": [
+            {"label": "Turned Lidded Jar", "price": 58, "dimensions": "12cm × 8cm"}
+        ],
+        "isFeatured": False,
+        "isNew": True,
+        "badge": "New Arrival",
+        "displayOrder": 13
     }
 ]
 
@@ -603,38 +758,36 @@ async def upload_product_image(file: UploadFile = File(...)):
         "message": f"Image compressed ({stats.get('reductionPercent', 0)}% reduction) and uploaded via {provider}"
     }
 
-# --- CLOUDFLARE R2 IMAGE PROXY & STATIC SERVING ---
+# --- CLOUDFLARE R2 IMAGE STREAMING ENDPOINT ---
 @app.get("/api/images/{filename}")
 def serve_image(filename: str):
     """
-    Serves product images from Cloudflare R2 or local cache with proper media type and headers.
+    Streams images directly from Cloudflare R2 bucket with high-performance caching.
     """
-    # 1. Check local backend uploads
-    backend_uploads = Path(__file__).resolve().parent / "uploads" / filename
-    if backend_uploads.exists():
-        return FileResponse(backend_uploads)
-
-    # 2. Check frontend assets cache
-    frontend_path = Path(__file__).resolve().parent.parent / "frontend" / "src" / "assets" / "products" / filename
-    if frontend_path.exists():
-        return FileResponse(frontend_path)
-
-    # 3. Check legacy assets path if present
-    legacy_path = Path(__file__).resolve().parent.parent / "src" / "assets" / "products" / filename
-    if legacy_path.exists():
-        return FileResponse(legacy_path)
-
-    # 2. Check Cloudflare R2
+    # 1. Direct fetch from Cloudflare R2 bucket
     if storage_client.s3_client and settings.is_r2_ready:
         try:
             obj = storage_client.s3_client.get_object(Bucket=settings.R2_BUCKET_NAME, Key=filename)
             content_type = obj.get("ContentType", "image/jpeg")
             body_bytes = obj["Body"].read()
-            return Response(content=body_bytes, media_type=content_type, headers={"Cache-Control": "public, max-age=86400"})
-        except Exception:
+            return Response(
+                content=body_bytes,
+                media_type=content_type,
+                headers={
+                    "Cache-Control": "public, max-age=86400, immutable",
+                    "X-Storage-Provider": "cloudflare-r2",
+                    "Access-Control-Allow-Origin": "*"
+                }
+            )
+        except Exception as e:
             pass
 
-    raise HTTPException(status_code=404, detail="Image not found")
+    # 2. Local uploads fallback if R2 lookup is unavailable
+    backend_uploads = Path(__file__).resolve().parent / "uploads" / filename
+    if backend_uploads.exists():
+        return FileResponse(backend_uploads)
+
+    raise HTTPException(status_code=404, detail=f"Image '{filename}' not found in Cloudflare R2")
 
 # --- ADMIN PANEL ENDPOINTS ---
 

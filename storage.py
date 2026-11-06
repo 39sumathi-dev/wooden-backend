@@ -108,22 +108,12 @@ class R2StorageClient:
                     Bucket=settings.R2_BUCKET_NAME,
                     Key=filename,
                     Body=file_bytes,
-                    ContentType=content_type
+                    ContentType=content_type,
+                    CacheControl="public, max-age=31536000, immutable"
                 )
-                # Local cache copy in backend/uploads and frontend assets if present
-                backend_uploads = Path(__file__).resolve().parent / "uploads"
-                backend_uploads.mkdir(parents=True, exist_ok=True)
-                with open(backend_uploads / filename, "wb") as f:
-                    f.write(file_bytes)
 
-                frontend_dir = Path(__file__).resolve().parent.parent / "frontend" / "src" / "assets" / "products"
-                if frontend_dir.parent.exists():
-                    frontend_dir.mkdir(parents=True, exist_ok=True)
-                    with open(frontend_dir / filename, "wb") as f:
-                        f.write(file_bytes)
-
-                public_url = f"http://127.0.0.1:8000/api/images/{filename}"
-                logger.info(f"File uploaded to Cloudflare R2 & cached locally: {filename}")
+                public_url = f"http://localhost:8000/api/images/{filename}"
+                logger.info(f"File uploaded directly to Cloudflare R2: {filename}")
                 return public_url, "cloudflare_r2", stats
             except Exception as e:
                 logger.error(f"Failed to upload to Cloudflare R2 ({e}), falling back to local storage.")
